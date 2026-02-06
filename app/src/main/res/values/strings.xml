@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Operator</string>
+    <string name="accessibility_settings">Open Accessibility Settings</string>
+    <string name="run_sample">Run Sample Workflow</string>
+    <string name="status_ready">Operator is ready. Enable the accessibility service, then run a workflow.</string>
+    <string name="local_model_note">Local quantized model files are user-provided and not bundled. Each user must download their own model.</string>
+</resources>

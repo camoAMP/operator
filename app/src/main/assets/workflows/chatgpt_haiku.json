@@ -1,0 +1,10 @@
+{
+  "workflowId": "chatgpt_haiku",
+  "name": "ChatGPT Haiku Workflow",
+  "steps": [
+    { "action": "OPEN_APP", "package": "com.openai.chatgpt" },
+    { "action": "SET_TEXT", "resourceId": "com.openai.chatgpt:id/message_input", "value": "Write a haiku about spring" },
+    { "action": "CLICK", "resourceId": "com.openai.chatgpt:id/send_button" },
+    { "action": "SAVE_FILE", "artifactType": "output", "extension": "txt" }
+  ]
+}
